@@ -1,0 +1,157 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video Player</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href=""
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <img width="40" height="32" src="{% static '/img/play.svg' %}" />
+          </a>
+
+          <div
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <a href="" class="nav-link px-2 text-white">Video Player</a>
+          </div>
+
+          <form class="col-12 col-lg-6 mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-light"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          {% comment %}
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+          {% endcomment %}
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/bike.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Bike Racing</h5></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/forest.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Snowfall in Alberta</h5></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/sunset.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Sunset in Alaska</h5></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/bike.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Bike Racing</h5></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/forest.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Snowfall in Alberta</h5></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card my-3 mx-3" style="width: 18rem">
+          <img
+            height="200rem"
+            src="{% static '/img/sunset.jpg' %}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body px-2 py-2">
+            <a href="" style="text-decoration: none" class="text-dark"
+              ><h5 class="card-title">Sunset in Alaska</h5></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
